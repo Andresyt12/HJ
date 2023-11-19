@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Hoja de Vida</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: none;
+  }
+  h1, h2 {
+    color: #333;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Santiago Montoya</h1>
+    <p>ESTUDIANTE EN DESARROLLO DE SOFTWARE</p>
+  </header>
+
+  <nav>
+    <a onclick="mostrarSeccion('sobre-mi')">Sobre Mí</a>
+    <a onclick="mostrarSeccion('conocimiento')">Conocimiento</a>
+    <a onclick="mostrarSeccion('experiencia')">Experiencia</a>
+    <a onclick="mostrarSeccion('metas')">Metas</a>
+  </nav>
+
+  <section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>
+        Soy una persona muy soñadora, soy alegre, extrovertido y lleno de metas poo complir,
+        me encanta compartir con mis padres y apoyarlos en todo momento,soy el tipo de persona
+        que lucha pore sus sueños por mas obstaculos que encuentre en el camino.
+    </P>
+
+    <p>
+        en estos momentos me enfoco en aprender todo lo que sea posible de mi estudio en 
+        desarrollo de SOFTWARE y en mi desempeñarme lo mejor que pueda en mi gran pasion 
+        que es el baloncesto, por eso es que me considero una persona que lucha siempre por
+        todo lo que quiere.
+    </p>
+    <img src="./de mi.jpeg" alt="Imagen Sobre Mí" style="max-width: 85%; height: auto; display: block; margin: 0 auto;">
+    <hr>
+    <nav>
+     <p>
+        esto es una breve introduccion sobre mi, como soy y como me veo desde mi propia
+        perspectiva. lo que estudio actualmente y laslabores que ejerso
+     </p>
+    </nav>
+    <nav>
+     <p>
+        © 2023 copyright: santiago montoya castañeda
+     </p>
+    </nav>
+    
+  </section>
+
+  <section id="conocimiento">
+    <h2>Conocimiento</h2>
+    <ul>
+      <li>HTML un 30%, CSS3 un 25%</li>
+      <li>sistemas de seguridad un 70%</li>
+      <!-- Puedes agregar más habilidades según sea necesario -->
+    </ul>
+    <img src="./ht.jpeg" alt="Imagen Conocimiento"  style="max-width: 85%; height: auto; display: block; margin: 0 auto;">
+    <hr>
+    <nav>
+     <p>
+        esto es una breve introduccion sobre mi, como soy y como me veo desde mi propia
+        perspectiva. lo que estudio actualmente y laslabores que ejerso
+     </p>
+    </nav>
+    <nav>
+     <p>
+        © 2023 copyright: santiago montoya castañeda
+     </p>
+    </nav>
+  </section>
+
+  <section id="experiencia">
+    <h2>Experiencia Laboral</h2>
+    <ul>
+      <li>
+        <strong>Desarrollador Web</strong><br>
+        Nombre de la Empresa - marketing.icon play<br>
+        Fecha de inicio 22/03/2021 - Fecha de finalización 16/07/2022
+      </li>
+      <!-- Puedes agregar más experiencias laborales siguiendo la misma estructura -->
+    </ul>
+    <p>
+        en mi lavor no era mucho de desarrollasor sino mas bien de apoyo y poseedor de 
+        opiniones para el equipo. ademas de que me enfocaba en aprender de cada uno de ellos
+        para ir mejorando mas y mas en este que es un gran trabajo y tambien me encargaba de
+        tomar las ordenes de compra que montaban los clientes en el sistema, les generaba una 
+        taza de presupuesto y las diferentes opciones que teniamos para crear sus paginas asi 
+        como tambien el contrato y las formas de pago para estar claros a la hora de empezar a 
+        trabajar, y para terminar de validar todo el proceso sobre el pedido de la pagina.
+    </p>
+    <img src="./lugar.jpeg" alt="Imagen Experiencia Laboral"  style="max-width: 85%; height: auto; display: block; margin: 0 auto;">
+    <hr>
+    <nav>
+     <p>
+        esto es una breve introduccion sobre mi, como soy y como me veo desde mi propia
+        perspectiva. lo que estudio actualmente y laslabores que ejerso
+     </p>
+    </nav>
+    <nav>
+     <p>
+        © 2023 copyright: santiago montoya castañeda
+     </p>
+    </nav>
+  </section>
+
+  <section id="metas">
+    <h2>Metas</h2>
+    <img src="./amigos.jpeg" alt="Imagen Metas"  style="max-width: 85%; height: auto; display: block; margin: 0 auto;">
+    <p>1: primordialmente terminar mis estudios en DESARROLLO DE SOFTWARE y empezar a 
+          trabajar en programacion para lograr cumplir el resto de mis metas y sueños
+          y asi poder darle una gran alegria a mis padres.</p>
+
+    <img src="./familia.jpeg" alt="Imagen Metas"  style="max-width: 85%; height: auto; display: block; margin: 0 auto;">
+    <p>2: tener un trabajo estable con un buen sueldo y tener con que apoyar, respaldar
+        y cuidar a toda mi familia, para que ellos no tengan que trabajar y asi 
+        cuidarloslos.
+    </p>
+    <img src="./tra.jpeg" alt="Imagen Metas"  style="max-width: 85%; height: auto; display: block; margin: 0 auto;">
+    <p>
+      3:tener propiedades, y una buena entrada de dinero ya que este es un buen trabajo y
+        muy rentable del cual quiero poder organizarme.
+    </p>
+    <hr>
+    <nav>
+     <p>
+        esto es una breve introduccion sobre mi, como soy y como me veo desde mi propia
+        perspectiva. lo que estudio actualmente y laslabores que ejerso
+     </p>
+    </nav>
+    <nav>
+     <p>
+        © 2023 copyright: santiago montoya castañeda
+     </p>
+    </nav>
+  </section>
+
+  
+  <script>
+    function mostrarSeccion(id) {
+      // Oculta todas las secciones
+      var secciones = document.querySelectorAll('section');
+      for (var i = 0; i < secciones.length; i++) {
+        secciones[i].style.display = 'none';
+      }
+
+      // Muestra la sección específica
+      var seccionMostrar = document.getElementById(id);
+      if (seccionMostrar) {
+        seccionMostrar.style.display = 'block';
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+
